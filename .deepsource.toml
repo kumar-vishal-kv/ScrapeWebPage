@@ -8,7 +8,7 @@ exclude_patterns = [
 
 
 [[analyzers]]
-name = "c#"
+name = "csharp"
 enabled = true
 dependency_file_paths = [
   "requirements.txt",
