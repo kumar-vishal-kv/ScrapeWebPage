@@ -1,2 +1,21 @@
 version = 1
 
+exclude_patterns = [
+  "bin/**",
+  "**/node_modules/",
+  "js/**/*.min.js"
+]
+
+
+[[analyzers]]
+name = "c#"
+enabled = true
+dependency_file_paths = [
+  "requirements.txt",
+  "Pipfile"
+]
+
+
+[[transformers]]
+name = "black"
+enabled = true
